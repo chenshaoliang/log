@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html ng-app="logApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>index</title>
+    <link href="./assets/styles/jquery.dataTables.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="./assets/styles/semantic.min.css" rel="stylesheet">
+    <link href="./assets/styles/log-admin.css" rel="stylesheet"></head>
+<body>
+    <!-- header -->
+    <div class="ui menu inverted">
+        <a class="item">Ele.me Admin</a>
+        <div class="ui menu">
+            <a class="item">Home</a>
+            <div class="ui pointing dropdown link item" tabindex="-1"> <i class="dropdown icon" tabindex="0"></i>
+                <span class="text">Shopping</span>
+                <div class="menu" tabindex="-1">
+                    <div class="header">Categories</div>
+                    <div class="item"> <i class="dropdown icon" tabindex="0"></i>
+                        <span class="text">Clothing</span>
+                        <div class="menu">
+                            <div class="header">Mens</div>
+                            <div class="item">Shirts</div>
+                            <div class="item">Pants</div>
+                            <div class="item">Jeans</div>
+                            <div class="item">Shoes</div>
+                            <div class="divider"></div>
+                            <div class="header">Womens</div>
+                            <div class="item">Dresses</div>
+                            <div class="item">Shoes</div>
+                            <div class="item">Bags</div>
+                        </div>
+                    </div>
+                    <div class="item">Home Goods</div>
+                    <div class="item">Bedroom</div>
+                    <div class="divider"></div>
+                    <div class="header">Order</div>
+                    <div class="item">Status</div>
+                    <div class="item">Cancellations</div>
+                </div>
+            </div>
+            <a class="item">Forums</a>
+            <a class="item">Contact Us</a>
+        </div>
+        <ul class="right menu">
+            <li class="item">
+                <a href="javascript:;">设置</a>
+            </li>
+            <li class="item">
+                <a href="javascript:;">
+                    <i class="icon refresh"></i>
+                </a>
+            </li>
+            <li class="item last-item">
+                <a href="javascript:;">
+                     <i class="icon add"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- main -->
+    <div  class="rightpart">
+        <form class="r-main index" action="search-result.html"  ng-submit="save()" ng-controller="TestFormModule">
+            <div class="ui action input">
+                <div class="left-sec" >日志查询:</div>
+                <input type="text" name="search" placeholder="搜索..." ng-model="user.search" required>
+                <input type="submit" value="搜索 " class="ui button" ng-disabled="myForm.$invalid"/>
+                <!-- <div class="ui button"  name="name" ng-disabled="myForm.$invalid">搜索</div> -->
+            </div>
+        </form>
+        
+    </div>
+    
+
+<script type="application/javascript" src="./assets/js/jquery.min.js"></script>
+<script type="application/javascript" src="./assets/js/semantic.min.js"></script>
+<script type="application/javascript" src="./assets/js/ng/angular.js"></script>
+<script type="application/javascript" src="./assets/js/ng/controller.js"></script>
+<script type="application/javascript" src="./assets/ng/js/log.js"></script>
+<!-- <script type="application/javascript" src="./assets/js/ng/angular-route.js"></script> -->
+
+
+<script type="application/javascript">
+    $(function(){
+        $('.ui.dropdown').dropdown();
+
+    });
+    
+    
+</script>
+</body>
+</html>

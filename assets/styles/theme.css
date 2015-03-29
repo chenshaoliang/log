@@ -1,0 +1,131 @@
+@charset "utf-8";
+body{margin:0px; font-family:Verdana,Arial,Helvetica,Sans-serif; }
+.white{color:#FFF; }
+/**登陆界面 开始*/
+.login-header{height:160px; background-color:#0066B1;margin:0;}
+.login-header-row1{height:60px; }
+.login-header-row2{text-align: center; }
+.login-header-h2{font-size:32px; }
+.ui.grid{margin:0;}
+.ui.grid.login-div{margin-top: 48px;; }
+ /**登陆界面CSS结束*/
+/******
+/**首页开始*/
+/**首页顶部菜单*/
+/*/*.ui.main.index-h{border-bottom:0px; background-color:#0066B1; line-height:75px; height:75px;
+}
+.ui.menu.index-h .fmenuitem{padding-bottom: 0; padding-top: 0; background-color:#0066B1; border: 0; }
+.ui.inverted.maincolor.menu {background-color: #0066B1 !important; color: #FFFFFF !important; } .ui.menu .fmenuitem:before{height: 0;width: 0; }
+.activex.item{-webkit-box-shadow: 0 -.2em 0 inset; box-shadow: 0 -.2em 0 inset; }
+#index-nickname{color: white; }
+/**首页顶部菜单  结束*/
+
+/**首页  中间区域  开始*/
+#content{
+	padding-top: 75px;
+}
+/**左侧 二级菜单*/
+#left-col{
+	padding: 0 0;
+	/*padding-right: 15px;*/
+}
+#left-menu{
+	border-radius: 0;
+}
+#left-menu>.content{
+	padding: 0.5em 0.5em;
+}
+#left-menu>.content>.ui.list>.item{
+	line-height: 36px;
+	height: 36px;
+}
+#left-menu>div.content>div.ui.list>div.item{
+	height: 36px !important;
+}
+#left-menu>div.content>div.ui.list>div.item>.icon{
+	margin-top: .3em;
+}
+#left-menu>.content>.ui.list>.item>.content>.header{
+	height:26px !important;
+	line-height: 26px !important;
+}
+#left-menu>.content>.ui.list>.item>.content{
+	padding-left:15px;
+}
+.unstyledlink,.unstyledlink:hover{
+	text-decoration: none;
+	color: rgba(0,0,0,.75);
+}
+/**左侧二级菜单结束*/
+
+/**右侧顶部面包屑*/
+#content-nav{
+	margin-bottom: 0;
+}****************/
+/**右侧顶部面包屑结束*/
+
+/*
+#index-h{
+	border-bottom:0px;
+}
+.index-head{
+	background-color:#0066B1;
+	line-height:32px;
+	height:58px;
+}
+.ui.menu .item, .ui.menu .item>a:not(.button){
+}
+#firstmenu a.item{
+	color:white;
+}
+
+#left-col>.ui.accordion.menu>.content{
+	padding:.5em .8em;
+}
+.ui.list .item .header{
+	padding-left:10px;
+	font-weight:100;
+}
+.unstyledlink{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.unstyledlink,.unstyledlink:hover{
+	text-decoration:none;
+	color:black;
+}
+#index-nickname{
+	color:#FFF;
+}
+
+
+#firstmenu{
+	padding-top:0px;
+	padding-bottom:0px;
+	color:white;
+}
+#firstmenu>a:not(.button) .item{
+	color:white;
+}
+#content{
+	padding-top:58px;
+	margin-left:-8px;
+	margin-right:-8px;
+}
+#left-col{
+	padding:0px 0px;
+}
+#menu-header{
+	font-size:16px;
+	color:#000;
+}
+#menu{
+	width:250px;
+}
+#content-nav{
+	margin-bottom:0px;
+}
+.ui.form input.tinyinput{
+	padding-top:0.35em;
+	padding-bottom:0.35em;	
+}*/

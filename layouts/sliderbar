@@ -1,0 +1,170 @@
+<div class="slidebar">
+      <div class="ui styled accordion">
+        <div class="title title-all">
+          <i class="home icon"></i>
+          Group
+        </div>
+        <div class=" title">
+          <i class="bookmark icon"></i>
+          <i class=" icon double angle left"></i>
+          Level 1
+        </div>
+        <div class=" content">
+          <div class="accordion">
+            <div class=" title title-a">
+                <i class="double angle left icon"></i>
+                Level 1A
+            </div>
+            <div class=" content">
+              <div class="accordion">
+                <div class="title title-aa">
+                    Level 1A-A
+                </div>
+                <div class="title title-aa">
+                    Level 1A-B
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class=" title title-a">
+                <i class="double angle left icon"></i>
+                Level 1B
+            </div>
+            <div class=" content">
+              <div class="accordion">
+                <div class="title title-aa">
+                    Level 1B-A
+                </div>
+                <div class="title title-aa">
+                    Level 1B-B
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui styled accordion">
+        <div class=" title">
+          <i class="bookmark icon"></i>
+          <i class="double angle left icon"></i>
+          Level 2
+        </div>
+        <div class=" content">
+          <div class="accordion">
+            <div class=" title title-a">
+                <i class="double angle left icon"></i>
+                Level 1A
+            </div>
+            <div class=" content">
+              <div class="accordion">
+                <div class="title title-aa">
+                    Level 1A-A
+                </div>
+                <div class="title title-aa">
+                    Level 1A-B
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class=" title title-a">
+                <i class="double angle left icon"></i>
+                Level 1B
+            </div>
+            <div class=" content">
+              <div class="accordion">
+                <div class="title title-aa">
+                    Level 1B-A
+                </div>
+                <div class="title title-aa">
+                    Level 1B-B
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui styled accordion">
+        <div class=" title">
+          <i class="bookmark icon"></i>
+          <i class="double angle left icon"></i>
+          Level 3
+        </div>
+        <div class=" content">
+          <div class="accordion">
+            <div class=" title title-a">
+                <i class="double angle left icon"></i>
+                Level 1A
+            </div>
+            <div class=" content">
+              <div class="accordion">
+                <div class="title title-aa">
+                    Level 1A-A
+                </div>
+                <div class="title title-aa">
+                    Level 1A-B
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class=" title title-a">
+                <i class="double angle left icon"></i>
+                Level 1B
+            </div>
+            <div class=" content">
+              <div class="accordion">
+                <div class="title title-aa">
+                    Level 1B-A
+                </div>
+                <div class="title title-aa">
+                    Level 1B-B
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui styled accordion">
+        <div class=" title">
+          <i class="bookmark icon"></i>
+          <i class="double angle left icon"></i>
+          Level 4
+        </div>
+        <div class=" content">
+          <div class="accordion">
+            <div class=" title title-a">
+                <i class="double angle left icon"></i>
+                Level 1A
+            </div>
+            <div class=" content">
+              <div class="accordion">
+                <div class="title title-aa">
+                    Level 1A-A
+                </div>
+                <div class="title title-aa">
+                    Level 1A-B
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class=" title title-a">
+                <i class="double angle left icon"></i>
+                Level 1B
+            </div>
+            <div class=" content">
+              <div class="accordion">
+                <div class="title title-aa">
+                    Level 1B-A
+                </div>
+                <div class="title title-aa">
+                    Level 1B-B
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>log-new</title>
+    <link href="./assets/styles/semantic.min.css" rel="stylesheet">
+    <link href="./assets/styles/log-admin.css" rel="stylesheet"></head>
+<body>
+
+    <!-- header -->
+    <div class="ui menu inverted">
+        <a class="item">Ele.me Admin</a>
+        <div class="ui menu">
+            <a class="item">Home</a>
+            <div class="ui pointing dropdown link item" tabindex="-1"> <i class="dropdown icon" tabindex="0"></i>
+                <span class="text">Shopping</span>
+                <div class="menu" tabindex="-1">
+                    <div class="header">Categories</div>
+                    <div class="item"> <i class="dropdown icon" tabindex="0"></i>
+                        <span class="text">Clothing</span>
+                        <div class="menu">
+                            <div class="item">Shirts</div>
+                        </div>
+                    </div>
+                    <div class="item">Home Goods</div>
+                    <div class="item">Bedroom</div>
+                </div>
+            </div>
+            <a class="item">Forums</a>
+        </div>
+        <ul class="right menu">
+            <li class="item">
+                <a href="javascript:;">设置</a>
+            </li>
+            <li class="item">
+                <a href="javascript:;">
+                    <i class="icon refresh"></i>
+                </a>
+            </li>
+            <li class="item last-item">
+                <a href="javascript:;">
+                    <i class="icon add"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 左导航 -->
+
+    <!-- main -->
+    <div class="rightpart rightpart-add">
+        <div class="breadcrumbs">
+
+            <a href="index.html" class="section a-index">
+                <i class="home icon"></i>
+                首页
+            </a>
+            <i class="angle right icon "></i>
+            <a class="section">日志</a>
+        </div>
+        <form class="r-main">
+            <div class="ui icon button add-btn">
+                <i class="add icon"></i>
+                新增
+            </div>
+            <div class="ui dimmer modals page transition  ">
+                <div class="ui small test modal transition  ">
+                    <i class="close icon"></i>
+                    <div class="header">Delete Your Account</div>
+                    <div class="content">
+                        <div class="ui form">
+                            <div class="inline field">
+                              <label >Last name</label>
+                              <input type="text" class="add-input" placeholder="Full Name">
+                            </div>
+                            <div class="inline field">
+                              <label >Lassssd 大街上电话t name</label>
+                              <input type="text" class="add-input" placeholder="Full Name">
+                            </div>
+                            <div class="inline field">
+                              <label >Last name</label>
+                              <input type="text" class="add-input" placeholder="Full Name">
+                            </div>
+                            <div class="inline field">
+                              <label >Last 大街上电话tname</label>
+                              <input type="text" class="add-input" placeholder="Full Name">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="actions">
+                        <div class="ui negative button">No</div>
+                        <div class="ui positive right labeled icon button">
+                            Yes
+                            <i class="checkmark icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="r-group">
+                <div class="r-group-item">
+                    <div class="r-group-thead">group1</div>
+                    <table class="ui table">
+                        <tbody>
+                            <tr class="r-row1">
+                                <td>名称</td>
+                                <td>September 14, 2013</td>
+                                <td>jhlilk22@yahoo.com</td>
+                                <td class="del-btn">删除</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="r-group-item">
+                    <div class="r-group-thead">group2</div>
+                    <table class="ui table">
+                        <tbody>
+                            <tr class="r-row1">
+                                <td>名称</td>
+                                <td>September 14, 2013</td>
+                                <td>jhlilk22@yahoo.com</td>
+                                <td class="del-btn">删除</td>
+                            </tr>
+                            <tr class="r-row2">
+                                <td>名称</td>
+                                <td>September 14, 2013</td>
+                                <td>jhlilk22@yahoo.com</td>
+                                <td class="del-btn">删除</td>
+                            </tr>
+                            <tr class="r-row3">
+                                <td>名称</td>
+                                <td>September 14, 2013</td>
+                                <td>jhlilk22@yahoo.com</td>
+                                <td class="del-btn">删除</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="r-group-item">
+                    <div class="r-group-thead">group3</div>
+                    <table class="ui table">
+                        <tbody>
+                            <tr class="r-row1">
+                                <td>名称</td>
+                                <td>September 14, 2013</td>
+                                <td>jhlilk22@yahoo.com</td>
+                                <td class="del-btn">删除</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+
+    <script type="application/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="application/javascript" src="./assets/js/semantic.min.js"></script>
+    <!-- <script type="application/javascript" src="./static/js/doubleDate2.0.js"></script>
+-->
+<script type="application/javascript">
+    $(function(){
+        $('.ui.accordion')
+          .accordion()
+        ;
+        $('.ui.dropdown').dropdown();
+        
+    // 新增配置
+        var $addIcon = $(".add-btn");
+        $addIcon.on("click",function(){
+          $('.small.test.modal')
+            .modal('show')
+          ;
+        });
+
+        var $addBd = $(".add-bd");
+        var $uiForm = $(".add-bd .ui.form .inline.field");
+        $addBd.on("click",".add-input",function(){
+            $uiForm.append("<div class=\"ui item more_sel\"><div class=\"ui fluid selection dropdown \"><div class=\"text\">更多</div><i class=\"dropdown icon\"></i><div class=\"menu\"><div class=\"item active\">选择一</div><div class=\"item \">选择二</div><div class=\"item\">选择三</div><div class=\"item\">选择四</div></div></div></div> <input type=\"text\" placeholder=\"Full Name\"/>");
+
+
+        })
+
+
+        var $delBtn = $(".del-btn");
+
+        function delRow(){
+          var rowLength = $(this).parents("table").find("tr").length;;
+          if(rowLength>1){
+            $(this).parent("tr").remove();
+            rowLength--;
+          }else{
+            $(this).parents(".r-group-item").remove();
+          }
+          
+        };
+        $delBtn.on("click",function(){
+          delRow.call($(this));
+        })
+        
+    });
+    
+</script>
+</body>
